@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+:root {
+  --background: #202020; /* in case I'll need to implement themes in the future */
+  --foreground: #dad7d2;
+  --nickname-color: #706d67;
+  background-color: #202020;
+  color: #dad7d2;
+  font-family: monospace;
+}
+
+.nickname {
+  color: var(--nickname-color);
+  font-size: small;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+

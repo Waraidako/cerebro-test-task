@@ -1,0 +1,7 @@
+@tailwind utilities;
+
+@layer utilities {
+    .scrollbar-stable { /* Buncha stuff so that the layout minds the scrollbar that will appear */
+        scrollbar-gutter: stable;
+    }
+}
